@@ -1,6 +1,5 @@
 # For HTML testing purposes
-Please note that the web page contains PHP code, which may cause certain content to be unavailable when hosted on Vercel & Github.
-
+https://github.com/ian20040409/111-2_Web_Blog<br>
 ## Credit:
 https://html5up.net/  <br>
 https://github.com/StartBootstrap/startbootstrap-creative  <br>
