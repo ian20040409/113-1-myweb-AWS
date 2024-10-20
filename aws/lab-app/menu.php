@@ -12,6 +12,9 @@
     <li>
       <a href="rds.php">RDS</a>
     </li>
+    <li>
+    <a href="/">首頁</a>
+    </li>
   </ul>
 </div>
 
