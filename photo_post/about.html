@@ -1,132 +1,180 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>關於作者 😃</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		
-		
+<html lang="zh-TW">
+<head>
+    <title>林恩佑的網站 11111110</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            padding: 15px;
+            background-color: #2e2e2e;
+            border-radius: 8px;
+        }
+        .form-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .form-group input {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #3a3a3a;
+        }
 
-	</head>
-	<body class="is-preload" style="background-color:rgb(211, 211, 211);">
-        <body style="background-color:rgb(211, 211, 211);">
-		<!-- Wrapper -->
-			<div id="wrapper">
+        /* 調整按鈕的大小和樣式 */
+        .button {
+            padding: 6px 12px;      /* 減小內邊距 */
+            font-size: 14px;        /* 調整字體大小 */
+            max-width: 150px;       /* 限制最大寬度 */
+            width: auto;            /* 自動調整寬度 */
+            border-radius: 4px;     /* 輕微圓角 */
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
 
+        .button.primary {
+            background-color: #3498db;
+            color: white;
+            border: none;
+        }
 
+        .button.primary:hover {
+            background-color: #2980b9;
+        }
 
-					<div id="main">
-						
-						<head>
-							<title>😃 關於作者 </title>
-							
-							<link rel="stylesheet" href="st/css/main.css" />
-							<link rel="icon" href="images/Sports_Mode_icon-icons.com_54137.ico">
-							<noscript><link rel="stylesheet" href="st/css/noscript.css" /></noscript>
-							
-						</head>
-						<nav id="nav">
-						<ul>
-							<li><a href="../">🏠&ensp;首頁</a></li>
-							<li><a href="#content">📝&ensp;個人簡介</a></li>
-							<li><a href="#second">❤️&ensp;喜歡做的事</a></li>
-							<li><a href="#school">🎓 學習經歷</a></li>
-							<li><a href="#yt">🎬 影片1</a></li>
-							<li><a href="#ytgame">🎮&ensp;影片2</a></li>
-							<li><a href="#music">🎧 平常聽的</a></li>
+        .form-group input {
+            max-width: 200px;       /* 限制輸入框最大寬度 */
+            margin-bottom: 10px;
+            padding: 8px;           /* 調整輸入框內邊距 */
+        }
+    </style>
+</head>
 
-						</ul>
-					</nav>
-						<!-- Content -->
-						<section id="content" class="main">
-							 <div class="spotlight">
-								<div class="content">
-									<header class="major">
-										<h2>個人簡介</h2>
-									</header>
-										<h3>姓名 : NYou</h3>
-										<br>
-										<h3>出生於 : 2004</h3>
-										<br>
-										<h3>職業 : 學生</h3>
-										<br>
-									
-								</div>
-								<span class="image"><img src="assets\img\about\hi.PNG" /></span>
-							</div>
-						</section>
-						</section>
-							<section id="second" class="main">
-								
-                                <h2>❤️喜歡做的事</h2><h4> 🎮、🏀、🎧、🎬</h4>
-							</section>
-							<section id="school" class="main">
-                                <h2><b><br>🎓 學習經歷</b><br></h2>
-								<h3>高中:格致高級中學</h3>
-                                <h3>國中:蘭雅國民中學</h3>
-                                <h3>國小:福林國民小學</h3>
-							</section>
-								
-								<!-- YT auto resized -->
-								<style>
-								.video-container {
-									position: relative;
-									padding-bottom: 56.25%; /* 16:9 */
-									height: 0;
-								  }
-								  .video-container iframe {
-									position: absolute;
-									top: 0;
-									left: 0;
-									width: 100%;
-									height: 100%;
-								  }
-								  </style>
-								<section id="yt" class="main special">
-								<h2><b><br>🎬&ensp;我的第一支Youtube影片</b></h2>
+<body class="is-preload">
+    <div id="wrapper">
 
-								<div class="video-container">
-									<iframe width="1280" height="720" src="https://www.youtube.com/embed/ccpd_CrG5VM" title="4k60 HDR 測試 2022年6月2日" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>									
-								</div>
-								</section>
-								<section id="ytgame" class="main special">
-								<h2><b><br>🎮&ensp;我的第一支遊戲影片</b></h2>
+        <!-- 查詢區 -->
+        <section>
+            <h2>搜尋員工</h2>
+            <form method="POST" class="form-group">
+                <input type="text" name="search" placeholder="搜尋名稱" />
+                <button type="submit" class="button primary icon solid fa-search" value="Search">搜尋</button> 
+            </form>
+        </section>
 
-								<div class="video-container">
-									<iframe width="1280" height="591" src="https://www.youtube.com/embed/qM49H73Uh-o" title="孤膽車神bug軍事基地大亂鬥！！！！！！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-								</div>
-								
-							
-							</section>
-							<section id="music" class="main special">
-								<h2><b>🎧&ensp;我平常在聽的</b></h2>
-								<!--
-								<div class="video-container">
-									<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1a0T0M7HflITgtMYW6LZUk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-								</div>-->
+        <!-- 新增資料區 -->
+        <section>
+            <h2>新增員工資料</h2>
+            <form action="<?php echo $_SERVER['SCRIPT_NAME']; ?>" method="POST" class="form-group">
+                <input type="text" name="NAME" placeholder="輸入名稱" required />
+                <input type="text" name="ADDRESS" placeholder="輸入地址" required />
+                <button type="submit" class="button primary" name="add" value="Add Data">新增</button>
+            </form>
+        </section>
 
-								<div class="video-container">
-									<iframe style="border-radius:12px" src="https://embed.music.apple.com/tw/playlist/%E4%B8%80%E6%88%91%E7%9A%84%E6%9C%80%E6%84%9B/pl.u-e98lGpKca5G40gp" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>								</div>
-							</section>
-					</div>
+        <!-- 顯示與操作資料區 -->
+        <section>
+            <h2>員工清單</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NAME</th>
+                        <th>ADDRESS</th>
+                        <th>ACTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    include "../inc/dbinfo.inc";
+                    $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+                    if (mysqli_connect_errno()) {
+                        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                    }
+                    mysqli_select_db($connection, DB_DATABASE);
 
-				<!-- Footer -->
-				<footer>
-					
-				</footer>
+                    if (isset($_POST['add'])) {
+                        $employee_name = htmlentities($_POST['NAME']);
+                        $employee_address = htmlentities($_POST['ADDRESS']);
+                        AddEmployee($connection, $employee_name, $employee_address);
+                    }
 
-						
+                    if (isset($_POST['delete_id'])) {
+                        $delete_id = intval($_POST['delete_id']);
+                        DeleteEmployee($connection, $delete_id);
+                    }
 
-			
-			
-				
-		
-				<script src="st/js/jquery.min.js"></script>
-				<script src="st/js/jquery.scrollex.min.js"></script>
-				<script src="st/js/jquery.scrolly.min.js"></script>
-				<script src="st/js/browser.min.js"></script>
-				<script src="st/js/breakpoints.min.js"></script>
-				<script src="st/js/util.js"></script>
-				<script src="st/js/main.js"></script>
-	</body>
+                    // 移除更新功能相關的 PHP 代碼
+                    /*
+                    if (isset($_POST['update'])) {
+                        $update_id = intval($_POST['update_id']);
+                        $update_name = htmlentities($_POST['update_name']);
+                        $update_address = htmlentities($_POST['update_address']);
+                        UpdateEmployee($connection, $update_id, $update_name, $update_address);
+                    }
+                    */
+
+                    $search_query = "";
+                    if (!empty($_POST['search'])) {
+                        $search = mysqli_real_escape_string($connection, $_POST['search']);
+                        $search_query = "WHERE NAME LIKE '%$search%'";
+                    }
+
+                    $result = mysqli_query($connection, "SELECT * FROM EMPLOYEES $search_query");
+                    while ($query_data = mysqli_fetch_assoc($result)) {
+                        echo "<tr>";
+                        echo "<td>{$query_data['ID']}</td>";
+                        echo "<td>{$query_data['NAME']}</td>";
+                        echo "<td>{$query_data['ADDRESS']}</td>";
+                        echo "<td>
+                                <form style='display:inline;' method='POST'>
+                                    <input type='hidden' name='delete_id' value='{$query_data['ID']}' />
+                                    <input type='submit' value='Delete' class='button primary' />
+                                </form>
+                              </td>";
+                        echo "</tr>";
+                    }
+                    mysqli_free_result($result);
+                    mysqli_close($connection);
+                    ?>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
 </html>
