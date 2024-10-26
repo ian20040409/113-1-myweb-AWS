@@ -52,9 +52,11 @@
 									</div>
 									
 								</section>
+							
 								<section id="banner">
 									<div class="jumbotron">
       <p>
+		
       <?php
 
   echo "<table class='table table-bordered'>";
@@ -113,13 +115,14 @@
 								</header>
 								<div class="posts">
 									<article>
-										<a href="aws/lab-app/index.php" class="image"><img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="" /></a>
+										<a href="aws/lab-app/index.php" class="image"><img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="aws" /></a>
 										<h3>AWS</h3>
 										 
 										<ul class="actions">
 											<li><a href="aws/lab-app/index.php" class="button">More</a></li>
 										</ul>
 									</article>
+									
 								</section>
 								
 
