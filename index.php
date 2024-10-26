@@ -122,6 +122,14 @@
 											<li><a href="aws/lab-app/index.php" class="button">More</a></li>
 										</ul>
 									</article>
+									<article>
+									<a href="/SamplePage.php" class="image"><img src="https://img.freepik.com/premium-photo/white-wall-with-white-background-that-says-word-it_994023-371201.jpg" alt="aws" /></a>
+										<h3>SamplePage.php</h3>
+										 
+										<ul class="actions">
+											<li><a href="/SamplePage.php" class="button">More</a></li>
+										</ul>
+									</article>
 									
 								</section>
 								
