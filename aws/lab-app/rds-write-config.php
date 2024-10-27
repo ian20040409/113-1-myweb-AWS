@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>AWS Technical Essentials v4.1</title>
-  <meta http-equiv="refresh" content="10,URL=/rds.php" />
+  <meta http-equiv="refresh" content="10,URL=rds.php" />
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
